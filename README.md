@@ -20,43 +20,6 @@ Este es un bot de Telegram que gestiona un stock simple del hogar. El bot está 
 - [Cohere API](https://docs.cohere.ai/docs) para el procesamiento de lenguaje natural.
 - [Telegram Bot API](https://core.telegram.org/bots/api) para interactuar con el bot.
 
-¡Qué buen proyecto! Claro, puedes incluir imágenes en un README de GitHub. Para ello, primero tienes que subir la imagen a tu repositorio y luego incluirla en el archivo `README.md`. El proceso sería el siguiente:
-
-1. Subes la imagen al repositorio (puede estar en una carpeta llamada `images`, por ejemplo).
-2. Luego, en el `README.md`, añades la imagen utilizando la sintaxis Markdown:
-
-   ```markdown
-   ![Descripción de la imagen](ruta/a/la/imagen)
-   ```
-
-Ahora, aquí tienes un ejemplo del README para tu proyecto, con una sección para incluir la imagen del chat del bot:
-
----
-
-# Telegram Stock Bot
-
-Este es un bot de Telegram que gestiona un stock simple del hogar. El bot está conectado a la API de Cohere, lo que le permite interpretar comandos en lenguaje natural y almacenar artículos en una base de datos PostgreSQL. Además, puede generar y enviar un archivo `.txt` con el stock actual.
-
-## Características
-
-- **Añadir items al stock:** El bot interpreta comandos del usuario y agrega artículos al stock del hogar.
-- **Listar el stock actual:** Puedes pedirle al bot que te envíe un archivo `.txt` con la lista de artículos en stock.
-- **Inteligencia Artificial:** Gracias a la API de Cohere, el bot entiende comandos en lenguaje natural sin necesidad de seguir una sintaxis estricta.
-- **Base de datos PostgreSQL:** Los datos del stock se almacenan de manera persistente en una base de datos.
-
-## Ejemplo de uso
-
-Aquí tienes un ejemplo de cómo interactuar con el bot:
-
-![Ejemplo del bot](images/chat_example.png)
-
-## Requisitos
-
-- [Go](https://golang.org/doc/install) 1.16 o superior.
-- [PostgreSQL](https://www.postgresql.org/download/) para la base de datos.
-- [Cohere API](https://docs.cohere.ai/docs) para el procesamiento de lenguaje natural.
-- [Telegram Bot API](https://core.telegram.org/bots/api) para interactuar con el bot.
-
 ## Configuración
 
 1. Clona el repositorio:
